@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+
+/* src/index.css or similar */
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("./assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600; /* This denotes semi-bold. Adjust as necessary */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/fonts/manrope/static/Manrope-Regular.ttf")
+    format("truetype");
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+}
