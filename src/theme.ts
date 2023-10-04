@@ -3,7 +3,7 @@ import { createTheme } from "@mui/material";
 const theme = createTheme({
   palette: {
     background: {
-      default: "#FFFFFF", // White background
+      default: "#FCF8FF", // White background
     },
     primary: {
       main: "#44FFA1", //greenish
@@ -42,6 +42,15 @@ const theme = createTheme({
       fontWeight: 400,
       fontSize: "18px",
       lineHeight: "32px",
+    },
+  },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          fontFamily: "Manrope, sans-serif",
+        },
+      },
     },
   },
 });

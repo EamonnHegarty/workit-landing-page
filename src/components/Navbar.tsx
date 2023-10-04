@@ -1,7 +1,6 @@
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
-// import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import LogoLight from "../assets/images/logo-light.svg";
 
@@ -15,6 +14,7 @@ const Navbar = () => {
             alignItems: "center",
             justifyContent: "space-between",
             width: "100%",
+            padding: "0 1rem",
           }}
         >
           <img src={LogoLight} alt="My Icon" />
