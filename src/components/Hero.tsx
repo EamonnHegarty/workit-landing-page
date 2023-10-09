@@ -19,7 +19,7 @@ const Hero = () => {
         paddingX: 2,
         borderBottomLeftRadius: "60% 10%",
         borderBottomRightRadius: "60% 10%",
-        marginBottom: "250px",
+        marginBottom: { sm: "40px", md: "250px" },
       }}
     >
       <Box
