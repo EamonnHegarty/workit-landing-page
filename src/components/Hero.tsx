@@ -2,11 +2,14 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import ImageHero from "../assets/images/image-hero.webp";
+import BgImage1 from "../assets/images/bg-pattern-1.svg";
+import BgImage2 from "../assets/images/bg-pattern-2.svg";
 
 const Hero = () => {
   return (
     <Box
       sx={{
+        position: "relative",
         backgroundColor: "primary.dark",
         height: "75vh",
         display: "flex",
@@ -16,9 +19,27 @@ const Hero = () => {
         paddingX: 2,
       }}
     >
-      <Typography color="primary.light" variant="h1" mt={3}>
-        Data tailored to your needs.
-      </Typography>
+      <Box
+        component="img"
+        src={BgImage1}
+        alt="Bottom Right Decorative"
+        sx={{
+          position: "absolute",
+          bottom: "30vh",
+          left: "-20vh",
+          "@media (max-width: 960px)": {
+            left: "-100%",
+          },
+          "@media (min-width: 1600px)": {
+            left: "0%",
+          },
+        }}
+      />
+      <Box maxWidth={500}>
+        <Typography color="primary.light" variant="h1" mt={3}>
+          Data tailored to your needs.
+        </Typography>
+      </Box>
       <Box
         mt={3}
         mb={3}
@@ -43,14 +64,32 @@ const Hero = () => {
         >
           Learn More
         </Button>
-        <Box py={4} px={2} my={2} width="90%" height="80%" maxWidth={750}>
+        <Box py={4} px={2} my={2} maxWidth={750}>
           <img
             src={ImageHero}
-            alt="Hero Description"
+            alt="Main Hero Presentation"
             style={{ width: "100%", height: "auto", objectFit: "cover" }}
           />
         </Box>
       </Box>
+      <Box
+        component="img"
+        src={BgImage2}
+        alt="Bottom Right Decorative"
+        sx={{
+          position: "absolute",
+          bottom: "25%",
+          right: "-5%",
+          width: "auto",
+          height: "auto",
+          "@media (max-width: 960px)": {
+            right: "-100%",
+          },
+          "@media (min-width: 1600px)": {
+            right: "0%",
+          },
+        }}
+      />
     </Box>
   );
 };
