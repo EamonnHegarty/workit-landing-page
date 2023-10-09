@@ -1,5 +1,5 @@
 import { Box, Card, CardContent, Typography, Button } from "@mui/material";
-import YourImage from "../assets/images/image-founder.webp";
+import Founder from "../assets/images/image-founder.webp";
 
 const TestimonialSection = () => {
   return (
@@ -20,7 +20,7 @@ const TestimonialSection = () => {
     >
       <Box
         component="img"
-        src={YourImage}
+        src={Founder}
         alt="Testimonial Image"
         sx={{
           width: { xs: "300px", md: "450px" },

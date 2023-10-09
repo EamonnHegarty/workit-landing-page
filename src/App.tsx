@@ -2,6 +2,7 @@ import { Navbar } from "./components/Navbar";
 import Hero from "./components/Hero";
 import CardSection from "./components/CardSection";
 import TestimonialSection from "./components/TestimonialSection";
+import Footer from "./components/Footer";
 import { Box } from "@mui/material";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <CardSection />
       <TestimonialSection />
+      <Footer />
     </Box>
   );
 }
