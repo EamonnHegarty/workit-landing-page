@@ -11,24 +11,27 @@ const Hero = () => {
       sx={{
         position: "relative",
         backgroundColor: "primary.dark",
-        height: "75vh",
+        height: { lg: "470px", xl: "550px" },
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "start",
         paddingX: 2,
+        borderBottomLeftRadius: "60% 10%",
+        borderBottomRightRadius: "60% 10%",
+        marginBottom: "250px",
       }}
     >
       <Box
         component="img"
         src={BgImage1}
-        alt="Bottom Right Decorative"
+        alt="first background decorative image swirl"
         sx={{
           position: "absolute",
           bottom: "30vh",
           left: "-20vh",
           "@media (max-width: 960px)": {
-            left: "-100%",
+            left: "-150%",
           },
           "@media (min-width: 1600px)": {
             left: "0%",
@@ -64,7 +67,7 @@ const Hero = () => {
         >
           Learn More
         </Button>
-        <Box py={4} px={2} my={2} maxWidth={750}>
+        <Box py={4} px={2} my={2} maxWidth={700}>
           <img
             src={ImageHero}
             alt="Main Hero Presentation"
@@ -75,15 +78,13 @@ const Hero = () => {
       <Box
         component="img"
         src={BgImage2}
-        alt="Bottom Right Decorative"
+        alt="second background decorative image swirl"
         sx={{
           position: "absolute",
           bottom: "25%",
-          right: "-5%",
-          width: "auto",
-          height: "auto",
+          right: "-5vh",
           "@media (max-width: 960px)": {
-            right: "-100%",
+            right: "-150%",
           },
           "@media (min-width: 1600px)": {
             right: "0%",
