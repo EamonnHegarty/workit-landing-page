@@ -17,7 +17,7 @@ const Navbar = () => {
             padding: "0 1rem",
           }}
         >
-          <img src={LogoLight} alt="My Icon" />
+          <img src={LogoLight} alt="web app logo" />
           <Button
             sx={{
               color: "primary.light",

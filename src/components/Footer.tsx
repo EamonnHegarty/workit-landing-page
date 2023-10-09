@@ -15,7 +15,11 @@ const Footer = () => {
         justifyContent="center"
         paddingBottom={5}
       >
-        <Box component="img" src={LogoDark} />
+        <Box
+          component="img"
+          src={LogoDark}
+          alt="dark version of web page logo"
+        />
       </Box>
       <Box
         display="flex"
@@ -25,7 +29,7 @@ const Footer = () => {
         gap={5}
       >
         {socialIcons.map((icon, index) => (
-          <Box key={index} component="img" src={icon} />
+          <Box key={index} component="img" alt="icons" src={icon} />
         ))}
       </Box>
     </>
