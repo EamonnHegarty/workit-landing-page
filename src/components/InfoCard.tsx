@@ -34,16 +34,21 @@ const InfoCard = ({
               alignItems: "center",
               justifyContent: "center",
               borderRadius: "50%",
-              border: "2px solid currentColor",
+              border: "1px solid currentColor",
             }}
           >
-            <Typography variant="h3" align="center">
+            <Typography variant="h3" align="center" color="primary.dark">
               {number}
             </Typography>
           </Box>
         </Box>
 
-        <Typography variant="h3" align="center" sx={{ mb: 2 }}>
+        <Typography
+          variant="h3"
+          align="center"
+          color="primary.dark"
+          sx={{ mb: 2 }}
+        >
           {title}
         </Typography>
         <Typography variant="body1" align="center" sx={{ mb: 2 }}>
