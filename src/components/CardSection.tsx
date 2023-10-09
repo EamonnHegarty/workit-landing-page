@@ -1,5 +1,5 @@
 import { Grid } from "@mui/material";
-import { InfoCard } from "./Card";
+import { InfoCard } from "./InfoCard";
 
 const cardSectionData = [
   {
@@ -31,11 +31,15 @@ const CardSection = () => {
       container
       spacing={2}
       sx={{
-        px: { xs: 4, lg: 10 },
+        pt: { sm: "40px", lg: "250px" },
+        px: { sm: 15, lg: 10 },
+        borderBottomLeftRadius: "60% 10%",
+        borderBottomRightRadius: "60% 10%",
+        backgroundColor: "secondary.light",
       }}
     >
       {cardSectionData.map((data) => (
-        <Grid key={data.key} item xs={12} md={4}>
+        <Grid key={data.key} item md={12} lg={4}>
           <InfoCard
             number={data.number}
             title={data.title}

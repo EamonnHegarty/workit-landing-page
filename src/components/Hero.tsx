@@ -19,7 +19,7 @@ const Hero = () => {
         paddingX: 2,
         borderBottomLeftRadius: "60% 10%",
         borderBottomRightRadius: "60% 10%",
-        marginBottom: { sm: "40px", md: "250px" },
+        // marginBottom: { sm: "40px", md: "250px" },
       }}
     >
       <Box
@@ -33,8 +33,9 @@ const Hero = () => {
           "@media (max-width: 960px)": {
             left: "-150%",
           },
-          "@media (min-width: 1600px)": {
+          "@media (min-width: 1800px)": {
             left: "0%",
+            bottom: "20vh",
           },
         }}
       />
@@ -81,7 +82,7 @@ const Hero = () => {
         alt="second background decorative image swirl"
         sx={{
           position: "absolute",
-          bottom: "25%",
+          bottom: "20vh",
           right: "-5vh",
           "@media (max-width: 960px)": {
             right: "-150%",
