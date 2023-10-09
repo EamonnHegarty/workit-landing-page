@@ -1,27 +1,54 @@
-# React + TypeScript + Vite
+# Frontend Mentor - QR code component solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Overview
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+### The challenge 
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Users should be able to:
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
+
+
+### Screenshot
+Still a work in progress !
+![image](https://github.com/EamonnHegarty/workit-landing-page/assets/91144434/8de071b8-387b-46fd-8610-03d5ea7be95d)
+
+
+
+### Links
+
+- Live Site URL: [https://workit-landing-page-solution.onrender.com/](https://workit-landing-page-solution.onrender.com/)
+
+## My process
+
+### Built with
+
+- HTML
+- CSS
+- [React](https://reactjs.org/) - JS library
+- [Mui](https://mui.com/)- Fully loaded component library
+  
+
+### Useful resources
+
+- [MUI Core Components](https://mui.com/material-ui/getting-started/) - MUI's docs are amazing and comprehenisive which was very useful for getting the responsiveness and feel to the page. 
+
+
+## Author
+
+- Frontend Mentor - [@EamonnHegarty](https://www.frontendmentor.io/profile/EamonnHegarty)
