@@ -49,6 +49,7 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           fontFamily: "Manrope, sans-serif",
+          fontWeight: 600,
         },
       },
     },

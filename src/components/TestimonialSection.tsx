@@ -62,8 +62,23 @@ const TestimonialSection = () => {
             company. Apply for access below and I'll be in touch to schedule a
             call
           </Typography>
-          <Button variant="contained" size="large" sx={{ maxWidth: 200 }}>
-            Click me
+          <Button
+            size="large"
+            sx={{
+              backgroundColor: "primary.main",
+              color: "primary.dark",
+              border: "2px solid",
+              borderColor: "primary.dark",
+              "&:hover": {
+                backgroundColor: "primary.dark",
+                color: "primary.main",
+                border: "2px solid",
+                borderColor: "primary.main",
+              },
+              maxWidth: "200px",
+            }}
+          >
+            Apply for access
           </Button>
         </CardContent>
       </Card>
