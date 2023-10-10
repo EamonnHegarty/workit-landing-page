@@ -25,8 +25,11 @@ Users should be able to:
 
 
 ### Screenshot
-Still a work in progress !
-![image](https://github.com/EamonnHegarty/workit-landing-page/assets/91144434/8de071b8-387b-46fd-8610-03d5ea7be95d)
+Hero Section
+![image](https://github.com/EamonnHegarty/workit-landing-page/assets/91144434/701f7946-250a-4dca-a090-bab4a364ab96)
+
+Info & Testimonial
+![image](https://github.com/EamonnHegarty/workit-landing-page/assets/91144434/d793512f-9982-44a3-b90b-2b3623019545)
 
 
 
